@@ -1,0 +1,420 @@
+*{
+    margin: auto;
+}
+head{
+    margin: 0%;
+}
+.container-1{
+    width: 100vw;
+    
+
+}
+.header{
+    width: 100vw;
+    height: 60px;
+    background: black;
+    /* display: flex;
+    justify-content: ; */
+    
+}
+nav{
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* padding: 10px 0; */
+}
+.logo{
+    width: 130px;
+    
+
+}
+nav ul{
+    list-style: none;
+    width: 100vw;
+    text-align: left;
+    padding-right: 10px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #b2a8a8;
+}
+nav ul li :hover{
+    color: #ffffff;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.body-one{
+    width: 100vw;
+    height: 744px;
+    background-image: url(Image/Benelli_img_1.jpg);
+    background-size: contain;
+}
+.home-content{
+    margin-left: 60px;
+    padding-top: 100px;
+}
+.home-content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 20px;
+    color: #ffffff;
+    text-shadow: rgb(15, 14, 14) 1px 0 10px;
+}
+.home-content h5{
+    text-shadow: 0 0px 5px black;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    font-family: 'myriad-pro', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+}
+.btn-black{
+    color: white !important;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'myriad-pro-condensed', 'Arial', sans-serif;
+    padding: 5px 30px;
+    border-radius: 0px;
+    display: inline-block !important;
+    text-decoration: none !important;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.btn-black :hover{
+    background-color: green;
+    color: #ffff;
+}
+.body-two{
+    width: 100vw;
+    height: 140px;
+    text-align: center;
+}
+.body-two h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 80px;
+}
+.body-three{
+    width: 100vw;
+    height: 620px;
+    background: #ffffff;
+
+}
+.inner-three-one{
+    display: flex;
+    margin: auto;
+
+}
+.three-1{
+    background-image: url(Image/benelli-college-1-1.jpeg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-2{
+    background-image: url(Image/benelli-college-1-2.jpeg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-2{
+    background-image: url(Image/Benelli-model-2.jpg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-info{
+    background-color: #000000b1;
+    width: 350px;
+    height: 250px;
+    align-items: center;
+    
+}
+.three-info p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.three-info a{
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'myriad-pro-condensed', 'Arial', sans-serif;
+    padding: 5px 30px;
+    border-radius: 0px;
+    display: inline-block !important;
+    text-decoration: none !important;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.three-info a :hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+}
+.inner-three-two{
+    display: flex;
+    margin-top: 30px;
+}
+.three-4{
+    background-image: url(Image/benelli-college-1-4.jpeg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-5{
+    background-image: url(Image/benelli-college-1-5.jpeg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-6{
+    background-image: url(Image/benelli-college-1-6.jpeg);
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+}
+.three-foot{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.btn-black-1{
+    color: white ;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'myriad-pro-condensed', 'Arial', sans-serif;
+    padding: 10px 30px;
+    border-radius: 0px;
+    display: inline-block ;
+    text-decoration: none ;
+    margin-top: 40px;
+    margin-left: 650px;
+}
+.btn-black-1 :hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.body-four{
+    width: 100vw;
+    height: 600px;
+    background-color: #ffffff;
+}
+.four-head{
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 665px
+}
+.four-head h1{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.img-container{
+    display: flex;
+}
+.img-one{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.img-one img{
+    width: 500px;
+}
+.img-one h5{
+    text-shadow: 0 0px 5px black;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    font-family: 'myriad-pro', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.img-one h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    color: #000000;
+    /* text-shadow: rgb(15, 14, 14) 1px 0 10px; */
+}
+.img-one p{
+    margin-top: 80px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 156, 72);
+    font-weight: 500;
+}
+.img-one p :hover{
+    color: rgb(3, 72, 3);
+}
+.img-one a{
+    text-decoration: none;
+}
+.four-foot{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border-bottom: 1px solid rgb(155, 127, 127);
+}
+.sub-form{
+    width: 100vw;
+    height: 600px;
+}
+.form-head{
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.form-head h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 50px;
+    padding-left: 622px;
+}
+.form-head p{
+    margin-left: 590px;
+    padding-top: 20px;
+
+}
+.form-body{
+    text-align: center;
+}
+.form-style{
+    height: 30px;
+    width: 500px;
+    border: 2px solid rgb(113, 108, 108);
+    border-radius: 5px;    
+}
+.form-condition{
+    width: 500px;
+    height: 400px;
+    border: dotted;
+    border-color: rgb(113, 108, 108);
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+.form-condition h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.form-condition p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+}
+.btn-black-2{
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'myriad-pro-condensed', 'Arial', sans-serif;
+    padding: 10px 30px;
+    border-radius: 0px;
+    display: inline-block ;
+    text-decoration: none ;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.footer{
+    width: 100vw;
+    height: 650px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 100px;
+}
+.foot-container{
+    width: 80vw;
+    height: 250px;
+    display: flex;
+}
+.foot-one{
+    color: #ffff;
+    width: 280px;
+    vertical-align: top;
+    
+}
+.foot-one h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+}
+.foot-one h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+}
+.foot-one li{
+    list-style: none;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot-one a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.foot-one a :hover{
+    text-decoration: underline;
+}
+.txt-hide{
+    opacity: 0;
+}
+.foot-h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffff;
+    padding-left: 800px;
+    margin-bottom: 20px;
+}
+.foot-h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    padding-left: 800px;
+    line-height: 25px;
+
+}
+.social-link{
+    width: 80vw;
+    height: 90px;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.social-link p{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    padding-left: 400px;
+}
+.social-link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.social-link a :hover{
+    color: green;
+}
+.footer img{
+    margin-left: 784px;
+    margin-top: 80px;
+}
+.foot-copy{
+    color: #ffffff;
+    padding-left: 600px;
+    padding-top: 50px;
+}
